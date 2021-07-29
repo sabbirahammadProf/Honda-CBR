@@ -9,8 +9,324 @@
     <script src="https://kit.fontawesome.com/e8e7dedca1.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom css and style css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<!-- Header -->
+<header class="secondary-background">
+<!-- Header hero section -->
+ <section class="container h-screen">
+   <div class="row align-items-center h-screen">
+      <div class="col-lg-6">
+        <p class="fs-7 fw-light text-white mb-3">Computer-controlled digital transistorized with electronic advance</p>
+        <h1 class="fw-medium display-5 text-white mb-4">Honda CBR 300R</h1>
+        <p class="fs-6 fw-light text-white mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+         <!-- Button trigger modal -->
+         <button type="button" class="btn warning-button rounded-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Purchase
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">About Honda CRB 300</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads. The single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery. And the affordable cost and responsive handling makes it a terrific bike for first-time riders, and for those looking to grow their garage. There’s even a version available with our anti-lock braking system. Plus, this year the CBR300R brings hot new graphics in two color choices. Time to get riding!</p>
+                <h5 class="mb-3">Price info</h5>
+                <p>CBR300R - BASE MSRP $4,799</p>
+                <p>CBR300R ABS - BASE MSRP $4,999</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn warning-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="img/header-bike.png" alt="" class="w-100">
+      </div>
+   </div>
+ </section>
+</header>
+
+
+<!-- Main -->
+<main>
+<!-- Featured section -->
+<section class="container text-center my-8">
+ <h1 class="display-5 fw-medium mb-1">Fetured Bikes 2021</h1>
+ <p class="warning-text fs-7 mb-0">Best bike collection</p>
+ <div class="row mt-5">
+   <div class="col-lg-4 mt-8"><img src="img/feature-bike.jpg" alt="" class="w-75 mx-auto gray-scale-100"></div>
+   <div class="col-lg-4 mt-8"><img src="img/feature-bike.jpg" alt="" class="w-75 mx-auto"></div>
+   <div class="col-lg-4 mt-8"><img src="img/feature-bike.jpg" alt="" class="w-75 mx-auto gray-scale-100"></div>
+ </div>
+</section>
+
+<!-- News section -->
+<section class="container my-8">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/bike-1.png" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-4 fw-medium">Ducati XDIAVEL S-73</h5>
+          <p class="card-text mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+          <button class="btn warning-button-outline">Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/bike-2.png" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-4 fw-medium">Motorcycles & Scooters</h5>
+          <p class="card-text mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+          <button class="btn warning-button-outline">Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/bike-3.png" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-4 fw-medium">2021 Honda CBR500R</h5>
+          <p class="card-text mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+          <button class="btn warning-button-outline">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Clients review section -->
+<section class="container my-8 text-center">
+<h1 class="fw-medium">Happy <span class="warning-text ">Clients says</span></h1>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
+    <div class="col">
+      <div class="card">
+        <img src="img/user-1.png" class="card-img-top w-75 pt-4 px-3 mx-auto" alt="...">
+        <div class="card-body">
+          <p class="card-text mt-3 mb-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+          <div class="inline mb-3">
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="far fa-star warning-text"></i>
+          </div>
+          <a href="#" target="_blank" class="text-decoration-none fw-medium">Regina Miles</a>
+          <p class="fw-medium mt-3">Banker</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/user-2.png" class="card-img-top w-75 pt-4 px-3 mx-auto" alt="...">
+        <div class="card-body">
+          <p class="card-text mt-3 mb-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+          <div class="inline mb-3">
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="far fa-star warning-text"></i>
+          </div>
+          <a href="#" target="_blank" class="text-decoration-none fw-medium">Regina Miles</a>
+          <p class="fw-medium mt-3">Banker</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/user-3.png" class="card-img-top w-75 pt-4 px-3 mx-auto rounded-100" alt="...">
+        <div class="card-body">
+          <p class="card-text mt-3 mb-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+          <div class="inline mb-3">
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="fas fa-star warning-text"></i>
+            <i class="far fa-star warning-text"></i>
+          </div>
+          <a href="#" target="_blank" class="text-decoration-none fw-medium">Regina Miles</a>
+          <p class="fw-medium mt-3">Banker</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Faq section -->
+<section class="container my-8">
+  <h1 class="fw-medium text-center">Frequently <span class="warning-text">Asked Questions</span></h1>
+  <div class="row mt-8 align-items-center">
+    <div class="col-lg-6 mb-5">
+      <img src="img/faq.png" alt="" class="w-100">
+    </div>
+    <div class="col-lg-6">
+<!-- Accordion start -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item show">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What are the most important things I should know about riding a bike?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-3 border border-top-1">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How can I tell if my helmet is old and I need a new one?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-3 border border-top-1">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        My bike has been in storage is it safe to ride?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Leaving your bike outside for a day or two won't do major damage. You may see signs of rust after a week of neglect. After one month in bad conditions, your beloved bike parts will start to degrade
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-3 border border-top-1">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        What rules should I follow when riding my bike?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Go With the Traffic Flow. Ride on the right in the same direction as other vehicles. ...
+          Obey All Traffic Laws. A bicycle is a vehicle and you're a driver. ...
+          Yield to Traffic When Appropriate. ...
+          Be Predictable. ...
+          Stay Alert at All Times. ...
+          Look Before Turning. ...
+          Watch for Parked Cars.
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Accordion end -->
+    </div>
+  </div>
+</section>
+
+<!-- Popular honda section -->
+<section class="container my-8 text-center">
+  <h1 class="fw-medium">Most <span class="warning-text">Popular of the year</span></h1>
+ <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
+  <div class="col">
+    <div class="card">
+      <a href="" target="_blank"><img src="img/popular-1.jpg" class="card-img-top w-75 pt-4 px-3 mx-auto" alt="..." height="200px"></a>
+      <div class="card-body">
+        <h5 class="fw-medium warning-bg text-white rounded-3 py-2">$5000</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <a href="" target="_blank"><img src="img/popular-2.jpg" class="card-img-top w-75 pt-4 px-3 mx-auto" alt="..." height="200px"></a>
+      <div class="card-body">
+        <h5 class="fw-medium warning-bg text-white rounded-3 py-2">$7000</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <a href="" target="_blank"><img src="img/popular-3.jpg" class="card-img-top w-75 pt-4 px-3 mx-auto" alt="..." height="200px"></a>
+      <div class="card-body">
+        <h5 class="fw-medium warning-bg text-white rounded-3 py-2">$11500</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Contact section -->
+<section class="container my-8">
+  <h1 class="fw-medium text-center"><span class="warning-text">Contact</span> with us</h1>
+  <div class="row mt-8 align-items-center">
+    <div class="col-lg-6">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29378.46559290042!2d91.3813208491024!3d23.012453437872725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753429e88a352f7%3A0xdf9547cb76f03b88!2sFeni!5e0!3m2!1sen!2sbd!4v1627554395554!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="col-lg-6 md-mt-5">
+      <form action="">
+        <label for="name" class="form-label">Enter your name</label>
+        <input type="name" class="form-control" id="name" placeholder="John Doe">
+        <label for="email" class="form-label mt-4">Enter your email</label>
+        <input type="email" class="form-control" id="email" placeholder="text@example.com">
+        <label for="phone" class="form-label mt-4">Enter your phone number</label>
+        <input type="phone" class="form-control" id="phone" placeholder="01811234567">
+        <label for="address" class="form-label mt-4">Enter your current address</label>
+        <input type="address" class="form-control" id="address" placeholder="Ramnagar, Dagonbhuiyan, Feni">
+        <input type="submit" value="Submit" class="btn warning-button w-100 mt-3">
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark py-5">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 pt-5">
+        <div class="inline">
+          <a href="#" class="text-decoration-none text-white">Download</a>
+          <a href="#" class="text-decoration-none text-white ms-4">License</a>
+        </div>
+        <div class="inline mt-4">
+          <a href="#" class="text-decoration-none text-white">About</a>
+          <a href="#" class="text-decoration-none text-white ms-4">Features</a>
+          <a href="#" class="text-decoration-none text-white ms-4">Pricing</a>
+          <a href="#" class="text-decoration-none text-white ms-4 footer-a-m0">Careers</a>
+          <a href="#" class="text-decoration-none text-white ms-4">Help</a>
+          <a href="#" class="text-decoration-none text-white ms-4">Privacy Policy</a>
+        </div>
+        <p class="text-white mt-4">&copy; 2021 bike . All right reserved</p>
+      </div>
+      <div class="col-lg-6 text-end md-text-start pt-5">
+        <h5 class="text-white">Get the app</h5>
+        <img src="img/download-apple.png" alt=""  width="145px" height="56px"><br>
+        <img src="img/download-google.png" alt="" width="135px" height="40px">
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>

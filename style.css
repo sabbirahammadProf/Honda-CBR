@@ -1,0 +1,92 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Custom CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Screen custom css */
+.h-screen {
+    height: 100vh;
+}
+
+/* Font custom css*/
+.fs-7 {
+    font-size: 14px;
+}
+
+.fw-medium {
+    font-weight: 600;
+}
+
+/* gray scale custom css*/
+.gray-scale-100 {
+    filter: grayscale(100);
+}
+
+/* Custom margin padding */
+.mt-8 {
+    margin-top: 5rem;
+}
+
+.mb-8 {
+    margin-bottom: 5rem;
+}
+
+.my-8 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.rounded-100 {
+    border-radius: 100%;
+}
+
+/* Color custom css */
+.secondary-background {
+    background-color: #264653;
+}
+
+.warning-bg {
+    background-color: #E76F51;
+}
+
+.warning-button {
+    background-color: #E76F51;
+    color: #FFFFFF;
+}
+
+.warning-button:hover {
+    color: #FFF;
+}
+
+.warning-text {
+    color: #E76F51;
+}
+
+.warning-button-outline {
+    background-color: transparent;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+}
+
+.warning-button-outline:hover {
+    background-color: #E76F51;
+    color: #FFFFFF;
+}
+
+/* Spacing custom class */
+@media screen and (max-width: 992px) and (min-width: 200px) {
+    .footer-a-m0 {
+        margin-left: 1px !important;
+    }
+
+    .md-text-start {
+        text-align: left !important;
+    }
+
+    .md-mt-5 {
+        margin-top: 3rem;
+    }
+}
